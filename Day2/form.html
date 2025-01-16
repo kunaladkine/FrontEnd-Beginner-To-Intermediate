@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tag</title>
+</head>
+<body>
+    <div class="feedback">
+        <form action="push">
+            <h2>Persoanl Details</h2>
+            <label for="name">Enter Your Name :</label>
+            <input type="text" name="name" value="Enter Your Name">
+            <label for="surname">Enter Your Surname</label>
+            <input type="text" name="surname" placeholder="enter your surname">
+            <br>
+            <label for="dob">Date Of Birth : </label>
+            <input type="date" name="dob" id="dob">
+            <label for="email">Email Id : </label>
+            <input type="email" name="email" id="email">
+            <br>                  
+           <input type="radio" name="male" value="male" id="gender">
+           <label for="male" id="gender">Male</label>
+           <input type="radio" name="female" value="female" id="gender">
+           <label for="female" id="gender">FeMale</label>
+            <h2>Education</h2>
+            <label for="select">Select Education : </label>
+            <select name="select" id="select">
+                <option value="select">Choose</option>
+                <option value="select">B.Tech</option>
+                <option value="select">Diploma</option>
+                <option value="select">HSC</option>
+                <option value="select">SSC</option>
+            </select><br>
+            
+        <button type="button">Submit</button>
+
+        </form>
+    </div>
+</body>
+</html>
